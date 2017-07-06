@@ -11,6 +11,7 @@
 		FB5FE5521F0E4B9200E64EDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5FE5511F0E4B9200E64EDE /* ViewController.swift */; };
 		FB5FE5541F0E4B9200E64EDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB5FE5531F0E4B9200E64EDE /* Assets.xcassets */; };
 		FB5FE5571F0E4B9200E64EDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB5FE5551F0E4B9200E64EDE /* Main.storyboard */; };
+		FB5FE5601F0E4C6600E64EDE /* ExchangeRateModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5FE55F1F0E4C6600E64EDE /* ExchangeRateModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		FB5FE5561F0E4B9200E64EDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB5FE5581F0E4B9200E64EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB5FE5591F0E4B9200E64EDE /* ExchangeRateX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ExchangeRateX.entitlements; sourceTree = "<group>"; };
+		FB5FE55F1F0E4C6600E64EDE /* ExchangeRateModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				FB5FE54F1F0E4B9200E64EDE /* AppDelegate.swift */,
+				FB5FE55F1F0E4C6600E64EDE /* ExchangeRateModels.swift */,
 				FB5FE5511F0E4B9200E64EDE /* ViewController.swift */,
 				FB5FE5531F0E4B9200E64EDE /* Assets.xcassets */,
 				FB5FE5551F0E4B9200E64EDE /* Main.storyboard */,
@@ -133,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB5FE5601F0E4C6600E64EDE /* ExchangeRateModels.swift in Sources */,
 				FB5FE5521F0E4B9200E64EDE /* ViewController.swift in Sources */,
 				FB5FE5501F0E4B9200E64EDE /* AppDelegate.swift in Sources */,
 			);
